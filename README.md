@@ -4,6 +4,15 @@ Este es un proyecto simple de **consola en Java** que permite convertir entre di
 El programa obtiene tasas de cambio en tiempo real y ofrece un menú interactivo para realizar conversiones rápidas.
 
 ---
+## 📑 Índice
+
+1. [Características](#-características)  
+2. [Estructura del proyecto](#-estructura-del-proyecto)  
+3. [Requisitos](#-requisitos)  
+4. [Ejecución](#-ejecución)  
+5. [Ejemplo de uso](#-ejemplo-de-uso)  
+
+---
 
 ##  Características
 
@@ -18,3 +27,16 @@ El programa obtiene tasas de cambio en tiempo real y ofrece un menú interactivo
 
 ---
 
+## 🛠️ Requisitos
+
+- **Java 11 o superior** (se utiliza `HttpClient`).
+- Dependencia de **Gson** para procesar JSON.
+
+Si usas **Maven**, agrega la siguiente dependencia en tu `pom.xml`:
+
+```xml
+<dependency>
+  <groupId>com.google.code.gson</groupId>
+  <artifactId>gson</artifactId>
+  <version>2.10.1</version>
+</dependency>
